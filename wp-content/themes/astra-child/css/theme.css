@@ -13,6 +13,16 @@ body * {
     font-family: 'Syne', sans-serif;
 }
 
+a {
+    font-family: 'Syne', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+a:hover {
+    color: black;
+}
+
 /*HEADER*/
 .site-header {
     Width: 1440px;
