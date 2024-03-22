@@ -10,4 +10,7 @@
     margin: 0px 0px 0px 0px;
     align-items: center;
     display: flex;
+}
+.button-avis:hover{
+    background-color: #C02E44;
 }/* End custom CSS */
