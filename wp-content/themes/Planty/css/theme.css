@@ -30,3 +30,105 @@ a:hover {
     position: sticky;
 
 }
+
+/*PAGE DE COMMANDE*/
+/*FORMULAIRE DE COMMANDE */
+.form {
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    justify-content: center;
+
+}
+
+.formTitle {
+    font-family: 'Syne', Sans-Serif;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-description {
+    font-family: 'Syne', Sans-Serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+
+}
+
+
+.buttonSubmit {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+
+selector .submit-Button {
+    font-family: "Syne", Sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    width: 198px;
+    height: 55px;
+    margin-top: 30px;
+}
+
+selector .buttonSubmit .submit-Button:hover {
+    background-color: #C02E44;
+}
+
+.verticalLine {
+    border: 1px solid #ccc;
+    color: white;
+    margin: 0;
+    width: 0;
+    height: auto;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .form {
+        display: block;
+        flex-direction: column;
+        column-gap: 90px;
+    }
+
+    .formTitle {
+        font-size: 25px;
+        margin-bottom: 20px
+    }
+
+    selector .submit-Button .buttonSubmit {
+        width: auto;
+    }
+
+    .form-description {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .form {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        justify-content: center;
+    }
+
+    .formLabel {
+        margin: 10px;
+    }
+
+    .formTitle {
+        font-size: 30px;
+        margin: 20px;
+    }
+}
